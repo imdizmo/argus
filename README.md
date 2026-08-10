@@ -15,9 +15,9 @@ Settings page, so adding a service never means editing a file by hand.
 
 ## Try it
 
-**[▸ Interactive demo at jatify.com](https://jatify.com)** — select *Argus* from
-the project row, then hover the rail at the right edge. You can reveal the
-service list, see the live up/down dots, and click through to a service.
+**[▸ Interactive demo](https://jatify.com/#argus)** — hover the rail at the right
+edge. You can reveal the service list, see the live up/down dots, and click
+through to a service.
 
 It's a faithful browser recreation of the interface, not the app itself — the
 real thing is a native Wayland client.
