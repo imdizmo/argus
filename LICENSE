@@ -1,0 +1,270 @@
+Argus END USER LICENCE AGREEMENT
+
+Version 1.0 — 2026-08-12
+
+Copyright © 2026 Alexandru Martalogu ("the Licensor"). All rights reserved.
+
+IMPORTANT — READ CAREFULLY. This End User Licence Agreement ("Agreement") is a
+legally binding agreement between you, either an individual or a single legal
+entity ("You"), and the Licensor, governing your use of Argus ("the
+Software"). By downloading, installing, copying, or otherwise using the
+Software, You agree to be bound by this Agreement. If You do not agree, do not
+download, install, or use the Software, and delete all copies in your
+possession.
+
+THE SOFTWARE IS PROPRIETARY AND CLOSED SOURCE. IT IS LICENSED, NOT SOLD.
+
+
+1. DEFINITIONS
+
+1.1 "Software" means the Argus program in object, byte-code, script, or
+    source form, together with its configuration examples, icons, desktop entry
+    files, documentation, and any updates or supplements provided to You by the
+    Licensor.
+
+1.2 "Distribution Package" means any archive or package produced by the
+    Licensor for installing the Software, including without limitation Arch
+    Linux packages (.pkg.tar.zst), Debian packages (.deb), RPM packages (.rpm),
+    and source or binary archives (.tar.gz).
+
+1.3 "Device" means a single physical or virtual computer under your control.
+
+1.4 "Personal Use" means use by You for your own purposes, including use in the
+    course of your own employment or business, but excluding provision of the
+    Software or its functionality to third parties.
+
+
+2. GRANT OF LICENCE
+
+2.1 Subject to your continuous compliance with this Agreement, the Licensor
+    grants You a limited, personal, non-exclusive, non-transferable,
+    non-sublicensable, revocable licence to install and use the Software on any
+    number of Devices under your control, for Personal Use.
+
+2.2 You may make a reasonable number of copies of the Distribution Package
+    solely for backup and archival purposes, provided every copy retains all
+    copyright, trademark, and proprietary notices, including this Agreement in
+    unmodified form.
+
+2.3 No rights are granted other than those expressly stated in this Section 2.
+    All rights not expressly granted are reserved by the Licensor.
+
+
+3. RESTRICTIONS
+
+Except to the extent that the following restrictions are expressly prohibited
+by applicable mandatory law, You shall not, and shall not permit any third
+party to:
+
+3.1 redistribute, publish, sell, rent, lease, lend, sublicense, host, or
+    otherwise make the Software or any Distribution Package available to any
+    third party, whether or not for charge, including via any public or private
+    package repository, mirror, app store, or file-sharing service;
+
+3.2 modify, adapt, translate, or create derivative works of the Software;
+
+3.3 reverse engineer, decompile, or disassemble the Software, or otherwise
+    attempt to derive its source code, algorithms, structure, or organisation,
+    save as permitted by Section 3.8;
+
+3.4 remove, obscure, or alter any copyright, trademark, licence, or other
+    proprietary notice contained in or displayed by the Software;
+
+3.5 use the Software to provide a commercial service to third parties,
+    including any managed, hosted, or "as-a-service" offering;
+
+3.6 circumvent, disable, or interfere with any licence-enforcement,
+    update-verification, or signature-verification mechanism of the Software;
+
+3.7 use the Software in violation of any applicable law, or in any manner that
+    infringes the rights of any third party.
+
+3.8 Interoperability. Nothing in this Agreement restricts any right You have
+    under Article 6 of Directive 2009/24/EC of the European Parliament and of
+    the Council, or under any equivalent mandatory provision of applicable
+    national law, to decompile the Software to the extent strictly necessary to
+    achieve interoperability of an independently created program with the
+    Software. Before exercising such a right, You are asked — but not required
+    — to contact the Licensor to request the information concerned.
+
+
+4. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+4.1 The Software is licensed, not sold. The Licensor and its suppliers retain
+    all right, title, and interest in and to the Software, including all
+    copyrights, trade secrets, trademarks, and other intellectual property
+    rights therein.
+
+4.2 The availability of the Software's source code in human-readable form
+    within a Distribution Package, whether as a consequence of the programming
+    language used or otherwise, does not constitute publication of that source
+    code, does not place it in the public domain, and does not grant You any
+    licence to it beyond the rights expressly granted in Section 2. In
+    particular, the Software is not open source software and is not licensed
+    under any open source licence.
+
+4.3 "Argus" and the associated logo are trademarks of the Licensor. This
+    Agreement grants You no right to use them, except for the purpose of
+    accurately identifying the Software in nominative fair use.
+
+
+5. THIRD-PARTY COMPONENTS
+
+5.1 The Software requires and interoperates with third-party components that
+    are not supplied by the Licensor and are not covered by this Agreement,
+    including without limitation Python, Qt, and PySide6. Those components are
+    obtained from your operating system distribution and are governed by their
+    own licence terms, including the GNU Lesser General Public Licence in the
+    case of Qt and PySide6.
+
+5.2 The Licensor makes no representation or warranty with respect to any
+    third-party component, and nothing in this Agreement modifies, restricts,
+    or supersedes the terms under which those components are licensed to You.
+
+
+6. DATA AND PRIVACY
+
+6.1 The Software runs locally on your Device. It does not transmit your
+    configuration, credentials, host names, or usage data to the Licensor.
+
+6.2 The Software connects only to endpoints that You configure, to services
+    already reachable from your Device, or to your operating system's own
+    package mirrors when checking whether a newer version is available. It does
+    not contact any server operated by the Licensor unless You explicitly
+    configure it to do so.
+
+6.3 Credentials and host details You place in the Software's configuration file
+    remain on your Device under your control. You are responsible for securing
+    that file with appropriate filesystem permissions.
+
+
+7. UPDATES AND SUPPORT
+
+7.1 The Licensor is under no obligation to provide updates, upgrades, bug
+    fixes, or technical support for the Software.
+
+7.2 Any update or supplement supplied by the Licensor forms part of the
+    Software and is governed by this Agreement, unless accompanied by separate
+    terms, in which case those terms prevail for that update or supplement.
+
+7.3 The Licensor may modify, suspend, or discontinue the Software, in whole or
+    in part, at any time and without notice.
+
+
+8. TERM AND TERMINATION
+
+8.1 This Agreement takes effect when You first download, install, or use the
+    Software and continues until terminated.
+
+8.2 This Agreement terminates automatically and immediately, without notice, if
+    You breach any of its terms.
+
+8.3 You may terminate this Agreement at any time by ceasing all use of the
+    Software and deleting all copies in your possession or control.
+
+8.4 On termination, all rights granted under Section 2 cease, and You shall
+    immediately cease all use of the Software and delete all copies. Sections
+    4, 5, 9, 10, 11, 12, and 13 survive termination.
+
+
+9. DISCLAIMER OF WARRANTY
+
+9.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+    "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS,
+    IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+    WARRANTY OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR
+    PURPOSE, TITLE, ACCURACY, OR NON-INFRINGEMENT.
+
+9.2 THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED,
+    SECURE, OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE SOFTWARE
+    IS FREE OF HARMFUL COMPONENTS. THE SOFTWARE IS NOT DESIGNED, INTENDED, OR
+    LICENSED FOR USE IN ANY ENVIRONMENT REQUIRING FAIL-SAFE PERFORMANCE.
+
+9.3 YOU BEAR THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE
+    AND AS TO THE RESULTS OBTAINED FROM ITS USE.
+
+
+10. LIMITATION OF LIABILITY
+
+10.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT
+     BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+     EXEMPLARY DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR
+     BUSINESS INTERRUPTION, ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE
+     SOFTWARE, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF ADVISED
+     OF THE POSSIBILITY OF SUCH DAMAGES.
+
+10.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR'S TOTAL
+     AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT
+     EXCEED THE GREATER OF THE AMOUNT YOU ACTUALLY PAID THE LICENSOR FOR THE
+     SOFTWARE IN THE TWELVE MONTHS PRECEDING THE EVENT GIVING RISE TO THE
+     CLAIM, OR TWENTY EUROS (EUR 20).
+
+10.3 NOTHING IN THIS AGREEMENT EXCLUDES OR LIMITS THE LICENSOR'S LIABILITY FOR
+     DEATH OR PERSONAL INJURY CAUSED BY NEGLIGENCE, FOR FRAUD OR FRAUDULENT
+     MISREPRESENTATION, OR FOR ANY OTHER LIABILITY THAT CANNOT BE EXCLUDED OR
+     LIMITED UNDER APPLICABLE MANDATORY LAW.
+
+10.4 CONSUMERS. If You are a consumer, You have statutory rights that this
+     Agreement cannot exclude or limit. Sections 9 and 10 apply to You only to
+     the extent permitted by the consumer protection law of your country of
+     residence, and your statutory rights remain unaffected.
+
+
+11. EXPORT AND SANCTIONS COMPLIANCE
+
+You represent that You are not located in, and are not a national or resident
+of, any country or territory subject to comprehensive trade sanctions by the
+European Union or the United Nations, and that You are not on any restricted
+party list maintained by those authorities. You shall comply with all
+applicable export control and sanctions laws in your use of the Software.
+
+
+12. GOVERNING LAW AND JURISDICTION
+
+12.1 This Agreement is governed by the laws of the Republic of Italy, excluding
+     its conflict of laws rules and excluding the United Nations Convention on
+     Contracts for the International Sale of Goods.
+
+12.2 The courts of Italy shall have exclusive jurisdiction over any dispute
+     arising out of or relating to this Agreement.
+
+12.3 If You are a consumer resident in the European Union, nothing in this
+     Section deprives You of the protection of the mandatory provisions of the
+     law of your country of residence, and You may bring proceedings in the
+     courts of that country.
+
+
+13. GENERAL
+
+13.1 Entire Agreement. This Agreement constitutes the entire agreement between
+     You and the Licensor concerning the Software and supersedes all prior or
+     contemporaneous communications and proposals, whether oral or written.
+
+13.2 Severability. If any provision of this Agreement is held to be invalid,
+     illegal, or unenforceable, that provision shall be modified to the minimum
+     extent necessary to make it enforceable, or if modification is not
+     possible, severed. The remaining provisions continue in full force.
+
+13.3 No Waiver. No failure or delay by the Licensor in exercising any right
+     under this Agreement constitutes a waiver of that right.
+
+13.4 Assignment. You may not assign or transfer this Agreement or any rights
+     under it, by operation of law or otherwise, without the Licensor's prior
+     written consent. The Licensor may assign this Agreement freely.
+
+13.5 Amendment. The Licensor may issue revised terms for future versions of the
+     Software. Revised terms do not apply retroactively to a version You have
+     already obtained; your use of that version remains governed by the terms
+     that accompanied it.
+
+
+14. CONTACT
+
+Questions about this Agreement, requests for permissions beyond its scope, and
+interoperability requests under Section 3.8 should be directed to:
+
+    Alexandru Martalogu
+    privacy@jatify.com
+    https://jatify.com
+
+END OF AGREEMENT

@@ -42,25 +42,47 @@ Download the package for your distribution from the
 
 ```bash
 # Arch
-sudo pacman -U argus-*.pkg.tar.zst
+sudo pacman -U argus-sidebar-*.pkg.tar.zst
 
 # Debian / Ubuntu
-sudo dpkg -i argus_*.deb
+sudo dpkg -i argus-sidebar_*.deb
 
 # Fedora
-sudo dnf install ./argus-*.rpm
+sudo dnf install ./argus-sidebar-*.rpm
 ```
+
+> The package is called **argus-sidebar**, and the command it installs is
+> `argus-sidebar`. The name `argus` already belongs to an unrelated network
+> monitor that ships its own `/usr/bin/argus`, so this package stays out of its
+> way — the two can be installed side by side.
+
+### Verify what you downloaded
+
+Every release is signed. `SHA256SUMS` covers the packages, and `SHA256SUMS.asc`
+is a clearsigned copy of it, so checking the signature and then the checksums
+is enough to trust all four files.
+
+```bash
+gpg --import argus.pub             # published with every release
+gpg --verify SHA256SUMS.asc        # expect: Good signature from "Argus CI"
+sha256sum -c SHA256SUMS
+```
+
+Each artifact also ships its own detached `.asc` if you'd rather check one
+directly: `gpg --verify argus-sidebar_0.1.0_all.deb.asc argus-sidebar_0.1.0_all.deb`.
+
+The signing key fingerprint is `0FBC F8A2 5705 844F 6881  C6F9 A0E5 E7E8 50AD 0DA2`.
 
 Then create your config:
 
 ```bash
 mkdir -p ~/.config/argus
-cp /usr/share/doc/argus/config.example.toml ~/.config/argus/config.toml
+cp /usr/share/doc/argus-sidebar/config.example.toml ~/.config/argus/config.toml
 chmod 600 ~/.config/argus/config.toml
 ```
 
 You need **at least one source** — the Uptime Kuma keys, one or more
-`[[services]]` blocks, or both. Then run `argus`. It autostarts on login (toggle
+`[[services]]` blocks, or both. Then run `argus-sidebar`. It autostarts on login (toggle
 in **KDE → Autostart**) and appears in the system tray: Show/Hide · Open
 Uptime-Kuma · Settings… · Quit.
 
@@ -126,5 +148,10 @@ whether you're on Wayland or X11.
 
 Copyright © 2026 Alexandru Martalogu. All rights reserved.
 
-The published packages are distributed for personal use. They are not open
-source, and no license to the source code is granted.
+Argus is proprietary software, licensed for personal use under the terms in
+[LICENSE](LICENSE). It is **not** open source, and no licence to the source code
+is granted beyond the rights that document sets out.
+
+The packages contain Python source as a consequence of the language; that is not
+a publication of the source, and does not place it under any open source licence.
+See section 4.2 of the licence.
