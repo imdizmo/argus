@@ -137,8 +137,19 @@ packages and are pulled in by the package: `pyside6`, `python-socketio`,
 
 ## Source
 
-Argus is closed source for now. This repository carries the documentation and
-the release downloads.
+Argus is **source-available, not open source.**
+
+The release packages contain the Python and QML source, and so does the release
+tarball. That is unavoidable for a PySide6 application — the interpreter needs
+the source to run it — and the tarball is what the AUR package builds from. Being
+able to read it grants you no rights over it: you may run it under the terms in
+[LICENSE](LICENSE), and nothing else. Redistribution, modification and derivative
+works are not permitted. See sections 3 and 4.2 in particular.
+
+If you want to use any of this in your own project, ask — the address is at the
+bottom of the licence.
+
+This repository carries the documentation and the release downloads.
 
 Bug reports and feature requests are welcome in
 [Issues](../../issues) — please include your distribution, Plasma version, and
