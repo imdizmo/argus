@@ -71,7 +71,7 @@ sha256sum -c SHA256SUMS
 Each artifact also ships its own detached `.asc` if you'd rather check one
 directly: `gpg --verify argus-sidebar_0.1.0_all.deb.asc argus-sidebar_0.1.0_all.deb`.
 
-The signing key fingerprint is `0FBC F8A2 5705 844F 6881  C6F9 A0E5 E7E8 50AD 0DA2`.
+The signing key fingerprint is `C86B FDAF FA81 D34D 81F9  4926 5F18 6C35 C3CF 7A75`.
 
 Then create your config:
 
